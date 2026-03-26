@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>РемоВакс - UI Kit</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <main class="ui-kit">
+      <div class="container">
+        <header class="ui-kit__header">
+          <span class="ui-kit__eyebrow">RemoVax System</span>
+          <h1 class="ui-kit__title">UI Kit для лендинга РемоВакс</h1>
+          <p class="ui-kit__lead">
+            Витрина базовых токенов, компонентов и интерактивов
+          </p>
+        </header>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Токены и типографика</h2>
+          <p class="ui-kit__section-lead">
+            Базовые цвета и тексты, которые уже можно использовать в секциях без
+            ad hoc значений.
+          </p>
+
+          <div class="ui-kit__group">
+            <div class="color-grid">
+              <article class="color-card">
+                <span
+                  class="color-card__preview color-card__preview--primary"
+                ></span>
+                <span class="color-card__name">Primary Pink</span>
+                <span>#EC1976</span>
+              </article>
+              <article class="color-card">
+                <span
+                  class="color-card__preview color-card__preview--secondary"
+                ></span>
+                <span class="color-card__name">Secondary Blue</span>
+                <span>#005FA8</span>
+              </article>
+              <article class="color-card">
+                <span
+                  class="color-card__preview color-card__preview--surface"
+                ></span>
+                <span class="color-card__name">Soft Surface</span>
+                <span>#EEF4F8</span>
+              </article>
+              <article class="color-card">
+                <span
+                  class="color-card__preview color-card__preview--text"
+                ></span>
+                <span class="color-card__name">Strong Text</span>
+                <span>#1F2B38</span>
+              </article>
+            </div>
+
+            <div class="ui-kit__grid ui-kit__grid--2">
+              <div class="ui-kit__stack">
+                <span class="ui-kit__demo-label">Headings</span>
+                <h1>Серные пробки и снижение слуха</h1>
+                <h2>Как работает РемоВакс</h2>
+                <h3>Мягкий и понятный пользовательский сценарий</h3>
+              </div>
+              <div class="ui-kit__stack">
+                <span class="ui-kit__demo-label">Body Copy</span>
+                <p>
+                  Основной текст для описаний, преимуществ и коротких поясняющих
+                  блоков.
+                </p>
+                <p class="text-muted">
+                  Вторичный текст для примечаний, мета-информации, подпунктов и
+                  спокойных пояснений.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Иконки и кнопки</h2>
+          <p class="ui-kit__section-lead">
+            Кнопки уже выровнены по размерам и логике состояний, чтобы потом
+            повторно использовать их в hero, карточках и CTA.
+          </p>
+
+          <div class="ui-kit__group">
+            <div class="icon-row">
+              <span class="icon-chip" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 14c2.5-4.5 6.3-6.8 11.5-7"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M7 18c2.2-3 5.5-4.9 9.8-5.5"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span class="icon-chip" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="8" stroke-width="2" />
+                  <path
+                    d="M12 8v5l3 2"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span class="icon-chip" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="11" r="6.5" stroke-width="2" />
+                  <path
+                    d="M8 18.5c1.2-1.6 2.5-2.4 4-2.4s2.8.8 4 2.4"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span class="icon-chip" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M8.2 6.2c-1.8 2-2.7 4-2.7 5.9A6.5 6.5 0 0 0 12 18.6a6.5 6.5 0 0 0 6.5-6.5c0-1.9-.9-3.9-2.7-5.9"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M12 4.5c1.2 1.2 2 2.5 2 4.1A3.9 3.9 0 0 1 12 12a3.9 3.9 0 0 1-2-3.4c0-1.6.8-2.9 2-4.1Z"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+            </div>
+
+            <div class="ui-kit__group ui-kit__group--row">
+              <a href="#" class="btn btn--primary">Где купить</a>
+              <a href="#" class="btn btn--secondary">Инструкция</a>
+              <a href="#" class="btn btn--blue">Подробнее</a>
+              <button class="btn btn--secondary" type="button" disabled>
+                Недоступно
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Карточки</h2>
+          <p class="ui-kit__section-lead">
+            Компоненты карточек собраны так, чтобы их можно было без переделки
+            использовать и в блоге, и в продуктовых секциях.
+          </p>
+
+          <div class="ui-kit__grid ui-kit__grid--2">
+            <article class="card">
+              <div class="card__image card__image--article"></div>
+              <div class="card__content">
+                <div class="card__header">
+                  <span class="tag">Лечение</span>
+                  <span class="tag">Симптомы</span>
+                </div>
+                <h3 class="card__title">
+                  Как отличить вирусную инфекцию от бактериальной
+                </h3>
+                <p class="card__text">
+                  Пример карточки статьи с тегами, метой и ссылкой на детальный
+                  материал.
+                </p>
+                <div class="card__meta">
+                  <span class="card__meta-item">158 просмотров</span>
+                  <span class="card__meta-item">5 мин</span>
+                </div>
+                <a href="#" class="card__link">Читать статью</a>
+              </div>
+            </article>
+
+            <article class="card card--feature">
+              <div class="card__image card__image--product">
+                <div class="card__mock-bottles" aria-hidden="true">
+                  <span class="card__mock-bottle"></span>
+                  <span class="card__mock-bottle"></span>
+                </div>
+              </div>
+              <div class="card__content">
+                <h3 class="card__title">
+                  PRO-комплекс РемоВакс Аккорд, когда нужно что-то мягкое и
+                  быстрое
+                </h3>
+                <p class="card__text">
+                  Продуктовая карточка для секции преимуществ или блока с
+                  формами выпуска.
+                </p>
+                <div class="card__feature-row">
+                  <div class="card__feature-quote">
+                    <strong>Форма выпуска</strong>
+                    <span>Раствор во флаконе с навинчивающейся крышкой.</span>
+                  </div>
+                  <div class="card__feature-note">
+                    <strong>Сценарий</strong>
+                    <p class="text-muted">
+                      Подходит для лендинга, FAQ и продуктовых блоков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Формы и аккордеон</h2>
+          <p class="ui-kit__section-lead">
+            Собраны базовые поля и раскрывающийся контент, который пригодится в
+            FAQ, инструкции и формах обратной связи.
+          </p>
+
+          <div class="ui-kit__grid ui-kit__grid--2">
+            <div class="component-surface">
+              <div class="form-grid form-grid--2">
+                <label class="field">
+                  <span class="field__label">Имя</span>
+                  <input class="input" type="text" placeholder="Анна" />
+                </label>
+                <label class="field">
+                  <span class="field__label">E-mail</span>
+                  <input
+                    class="input"
+                    type="email"
+                    placeholder="mail@example.ru"
+                  />
+                </label>
+              </div>
+
+              <div class="form-grid u-mt-md">
+                <label class="field">
+                  <span class="field__label">Телефон</span>
+                  <input
+                    class="input is-error"
+                    type="tel"
+                    placeholder="+7 (999) 999-99-99"
+                  />
+                  <span class="field__help is-error"
+                    >Проверьте формат номера</span
+                  >
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" checked />
+                  <span class="checkbox__box"></span>
+                  <span class="checkbox__text"
+                    >Согласен на обработку персональных данных</span
+                  >
+                </label>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion__item is-open">
+                <button
+                  class="accordion__head js-accordion-head"
+                  type="button"
+                  aria-expanded="true"
+                >
+                  <span class="accordion__title"
+                    >Как использовать РемоВакс?</span
+                  >
+                  <span class="accordion__icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion__body">
+                  <div class="accordion__content">
+                    Закапайте средство согласно инструкции, подождите указанное
+                    время и завершите очищение согласно рекомендованному
+                    сценарию.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button
+                  class="accordion__head js-accordion-head"
+                  type="button"
+                  aria-expanded="false"
+                >
+                  <span class="accordion__title"
+                    >Как часто можно применять?</span
+                  >
+                  <span class="accordion__icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion__body">
+                  <div class="accordion__content">
+                    Частота зависит от формы продукта и сценария использования,
+                    поэтому в контентной зоне дальше можно подставлять текст из
+                    CMS или редактора WordPress.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Навигация</h2>
+          <p class="ui-kit__section-lead">
+            Есть desktop-меню и мобильное меню с hook-классами под будущую
+            интеграцию в тему.
+          </p>
+
+          <div class="ui-kit__grid ui-kit__grid--2">
+            <div class="component-surface">
+              <nav class="nav" aria-label="Основная навигация">
+                <ul class="menu">
+                  <li class="menu__item"><a href="#">Серные пробки</a></li>
+                  <li class="menu__item"><a href="#">Снижение слуха</a></li>
+                  <li class="menu__item menu__item--has-children">
+                    <a href="#">Инструкция</a>
+                  </li>
+                  <li class="menu__item"><a href="#">Где купить</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="component-surface">
+              <div class="ui-kit__stack">
+                <span class="ui-kit__demo-label">Burger trigger</span>
+                <div class="ui-kit__group ui-kit__group--row">
+                  <button
+                    class="burger js-burger"
+                    type="button"
+                    aria-label="Открыть меню"
+                  >
+                    <span class="burger__line"></span>
+                  </button>
+                </div>
+
+                <span class="ui-kit__demo-label">Preview state</span>
+                <div class="mobile-menu mobile-menu--preview is-open">
+                  <div class="mobile-menu__header">
+                    <span class="mobile-menu__title">Меню</span>
+                    <button
+                      class="mobile-close"
+                      type="button"
+                      aria-label="Закрыть меню"
+                    ></button>
+                  </div>
+                  <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                      <a href="#">Серные пробки</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                      <a href="#">Снижение слуха</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                      <button
+                        class="mobile-menu__toggle js-submenu-toggle is-open"
+                        type="button"
+                        aria-expanded="true"
+                      >
+                        Инструкция
+                      </button>
+                      <div class="mobile-menu__submenu is-open">
+                        <a href="#">Инструкция РемоВакс</a>
+                        <a href="#">РемоВакс Аккорд</a>
+                      </div>
+                    </li>
+                    <li class="mobile-menu__item">
+                      <a href="#">Где купить</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ui-kit__section">
+          <h2 class="ui-kit__section-title">Собранный промо-блок</h2>
+          <p class="ui-kit__section-lead">
+            Небольшая сборка из уже готовых компонентов, чтобы проверить
+            совместимость до перехода к index.html.
+          </p>
+
+          <div class="component-surface component-surface--dark">
+            <div class="ui-kit__grid ui-kit__grid--2">
+              <div class="ui-kit__stack">
+                <span class="ui-kit__eyebrow">РемоВакс Аккорд</span>
+                <h2 class="section-title">
+                  Жалобы на шум в ушах или снижение слуха?
+                </h2>
+                <p class="section-subtitle">
+                  Готовая композиция из типографики, CTA и карточки может лечь в
+                  hero без дополнительной разметки.
+                </p>
+                <div class="ui-kit__group ui-kit__group--row">
+                  <a href="#" class="btn btn--primary">Где купить</a>
+                  <a href="#" class="btn btn--blue">Инструкция</a>
+                </div>
+              </div>
+
+              <article class="card">
+                <div class="card__image card__image--product">
+                  <div class="card__mock-bottles" aria-hidden="true">
+                    <span class="card__mock-bottle"></span>
+                    <span class="card__mock-bottle"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Форма выпуска</h3>
+                  <p class="card__text">
+                    Раствор в пластиковом флаконе с навинчивающейся крышкой и
+                    капельным аппликатором.
+                  </p>
+                  <a href="#" class="card__link">Подробнее</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="overlay js-overlay"></div>
+
+    <aside class="mobile-menu js-mobile-menu" aria-label="Мобильное меню">
+      <div class="mobile-menu__header">
+        <span class="mobile-menu__title">Меню</span>
+        <button
+          class="mobile-close js-mobile-close"
+          type="button"
+          aria-label="Закрыть меню"
+        ></button>
+      </div>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item"><a href="#">Серные пробки</a></li>
+        <li class="mobile-menu__item"><a href="#">Снижение слуха</a></li>
+        <li class="mobile-menu__item">
+          <button
+            class="mobile-menu__toggle js-submenu-toggle"
+            type="button"
+            aria-expanded="false"
+          >
+            Инструкция
+          </button>
+          <div class="mobile-menu__submenu">
+            <a href="#">Инструкция РемоВакс</a>
+            <a href="#">РемоВакс Аккорд</a>
+          </div>
+        </li>
+        <li class="mobile-menu__item"><a href="#">Где купить</a></li>
+      </ul>
+    </aside>
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
